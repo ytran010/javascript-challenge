@@ -15,13 +15,7 @@ data.forEach((UFOSighting) => {
 var form = d3.select("form");
 
 form.on("submit",runEnter);
-// var inputField = d3.select("#form-control");
-// inputField.on("change", function() {
-//     d3.event.preventDefault();
-//     var newText = d3.event.target.value;
-//     console.log(newText);
-    
-//   });
+
 
   function runEnter() {
 
