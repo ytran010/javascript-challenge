@@ -13,9 +13,10 @@ data.forEach((UFOSighting) => {
 });
 
 var form = d3.select("form");
+var button = d3.select("button")
 
 form.on("submit",runEnter);
-form.on("click", runEnter);
+button.on("click", runEnter);
 
   function runEnter() {
 
