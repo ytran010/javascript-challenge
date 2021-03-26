@@ -17,9 +17,9 @@ var form = d3.select("form");
 var button = d3.select("button")
 
 form.on("submit",runEnter);
-d3.event.preventDefault();
+
 button.on("click", runEnter);
-d3.event.preventDefault();
+
 
   function runEnter() {
 
@@ -31,7 +31,7 @@ d3.event.preventDefault();
   
     // Get the value property of the input element
     var inputValue = inputElement.property("value");
-  
+    d3.event.preventDefault();
     // Print the value to the console
     console.log(inputValue);
     
