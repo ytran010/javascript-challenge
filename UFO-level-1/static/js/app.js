@@ -18,7 +18,7 @@ var button = d3.select("button")
 
 form.on("submit",runEnter);
 
-button.on("click", runEnter);
+button.on("submit", runEnter);
 
 
   function runEnter() {
