@@ -1,4 +1,5 @@
 # JavaScript Homework - JavaScript and DOM Manipulation
+## You can check out the website with: https://ytran010.github.io/javascript-challenge/UFO-level-1/index.html
 
 ## Background
 
