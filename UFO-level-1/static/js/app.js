@@ -40,15 +40,15 @@ button.on("submit", runEnter);
     // Clear out table
     tbody.html("");
 
-    if (inputValue===0){
-      data.forEach((UFOSighting) => {
-        var row = tbody.append("tr");
-        Object.entries(UFOSighting).forEach(([key, value]) => {
-          var cell = row.append("td");
-          cell.text(value);
-        });
-    });
-    } else {
+
+    //   data.forEach((UFOSighting) => {
+    //     var row = tbody.append("tr");
+    //     Object.entries(UFOSighting).forEach(([key, value]) => {
+    //       var cell = row.append("td");
+    //       cell.text(value);
+    //     });
+    // });
+  
     filteredData.forEach((UFOSighting) => {
         var row = tbody.append("tr");
         Object.entries(UFOSighting).forEach(([key, value]) => {
@@ -57,7 +57,6 @@ button.on("submit", runEnter);
         });
     });
 
-  }
 }
 
   
