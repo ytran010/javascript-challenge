@@ -39,16 +39,8 @@ button.on("submit", runEnter);
     console.log(filteredData);
     // Clear out table
     tbody.html("");
+    
 
-
-    //   data.forEach((UFOSighting) => {
-    //     var row = tbody.append("tr");
-    //     Object.entries(UFOSighting).forEach(([key, value]) => {
-    //       var cell = row.append("td");
-    //       cell.text(value);
-    //     });
-    // });
-  
     filteredData.forEach((UFOSighting) => {
         var row = tbody.append("tr");
         Object.entries(UFOSighting).forEach(([key, value]) => {
@@ -57,7 +49,8 @@ button.on("submit", runEnter);
         });
     });
 
-}
+  }
+
 
   
   
